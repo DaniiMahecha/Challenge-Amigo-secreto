@@ -5,18 +5,20 @@ function addFriend(){
     let friend = document.getElementById("amigo");
     let friendName = friend.value.trim() //Obtener el valor del input y eliminar espacios al inicio y al final
     
-    if(friendList.includes(friendName)){ //Si se agrega un nombre que ya existe en la lista 
-        alert('This name is already in the List');
-    } else {
-        if(friendName != ''){
+    if(friendName != ''){
+        if(friendList.includes(friendName)){
+            alert('This name is already in the list')
+        } else {
             friendList.push(friendName); //Agregar el dato al Array 
             friend.value = ''; //Limpiar el Array  
             actualizeFriendList(); //Llamar a la funcion que actualiza la lista de amigos
-        } else {
-            alert('Indique un nombre');  //Si el espacio esta vacio lanzar un alert s         
-        }  
-    }
+        }
+    } else {
+        alert('Write your name');  //Si el espacio esta vacio lanzar un alert s         
+    }  
 }
+
+
 
 function actualizeFriendList(){
     const ul = document.getElementById("listaAmigos"); //Obtener el elemento ul donde se mostraran los amigos
@@ -27,9 +29,9 @@ function actualizeFriendList(){
         li.textContent = `${friendList[i]}`; //Asignar el nombre del amigo al contenido del li
         ul.appendChild(li); //Agregar el li al ul
     }
-    
-
 }
+
+
 
 console.log(friendList)
 
