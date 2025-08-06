@@ -19,7 +19,6 @@ function addFriend(){
 }
 
 
-
 function actualizeFriendList(){
     const ul = document.getElementById("listaAmigos"); //Obtener el elemento ul donde se mostraran los amigos
     ul.innerHTML = ""; //Limpiar el contenido del ul antes de agregar los amigos
@@ -29,6 +28,26 @@ function actualizeFriendList(){
         li.textContent = `${friendList[i]}`; //Asignar el nombre del amigo al contenido del li
         ul.appendChild(li); //Agregar el li al ul
     }
+}
+
+
+function randomIndex(){
+    let randomListIndex = Math.floor(Math.random() * friendList.length);
+    return randomListIndex
+}
+
+function drawnFriend(){
+    const div = document.querySelector('.input-section') 
+    if(friendList.length < 2 ){
+        alert('The list must contain at least two friends to be drawn.');
+    } else {
+        let secretFriend = friendList[randomIndex()];
+        console.log(secretFriend);
+        const p = document.createElement('h1');
+        p.textContent = `You're secret friend is ${secretFriend}`;
+        div.appendChild(p);
+    }
+
 }
 
 
