@@ -9,6 +9,11 @@
 
 A web application to organize secret friend gift exchanges in an easy and fun way.
 
+## 🏆 Learning Badge
+<h2>Oracle ONE & Alura Challenge Completed</h2>
+<img width="500" height="500" alt="ff043987-239b-4661-bdb1-7f4ca6092c48" src="https://github.com/user-attachments/assets/11c18b91-1857-4754-bc76-c7bceef42c1e" />
+
+
 ## 📋 Description
 
 Secret Friend Generator is a web application that allows you to create participant lists and randomly draw secret friends. Users can add names to a list and the application takes care of selecting a secret friend without repetitions until everyone has been drawn.
