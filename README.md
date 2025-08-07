@@ -1,5 +1,6 @@
 <h1>🎁 Secret Friend Generator</h1>
-<img width="541" height="435" alt="image" src="https://github.com/user-attachments/assets/dbbfe653-874d-494b-8cb5-b1d809a5efe2" />
+<img width="493" height="399" alt="image" src="https://github.com/user-attachments/assets/6db13f0e-0031-4a90-8e36-04a578fa4213" />
+
 
 
 <p align="left">
