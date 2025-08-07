@@ -43,21 +43,6 @@ This project is part of the Secret Friend Challenge by Alura and Oracle ONE, des
 - ✅ Data validation: Verification of duplicate names and empty fields
 - 📱 Intuitive interface: Simple and easy-to-use design
 
-
-## 🚀 Technologies Used
-
-- HTML5: Application structure
-- CSS3: Styles and responsive design
-- JavaScript (Vanilla): Application logic
-
-    - DOM manipulation
-    - Random selection algorithms
-    - Array handling
-    - Form validation
- <img width="256" height="150" alt="HTML5_CSS_JavaScript" src="https://github.com/user-attachments/assets/b914e5b5-5069-41b4-b974-c87578b5f599" />
-
-
-
 ## 🔧 Functionalities
 
 ### Add friends
