@@ -1,5 +1,9 @@
 var friendList = []; //Array para almacenar los amigos
 var noRepeated = []; //Array para que no salga el mismo firend dos veces
+const ul = document.getElementById("listaAmigos"); //Obtener el elemento ul donde se mostraran los amigos
+const ul2 = document.getElementById("listaAmigos"); //Obtener el elemento ul donde se mostraran los amigos
+var drawFinished = false; //Variable para controlar si el sorteo ha terminado
+
 
 
 function addFriend(){ 
@@ -21,11 +25,10 @@ function addFriend(){
 
 
 function actualizeFriendList(){
-    const ul = document.getElementById("listaAmigos"); //Obtener el elemento ul donde se mostraran los amigos
     ul.innerHTML = ""; //Limpiar el contenido del ul antes de agregar los amigos
 
     for (let i = 0; i < friendList.length; i++){ //Recorrer el Array de amigos
-        const li = document.createElement('li'); //Crear un nuevo elemento li para cada amigo
+        let li = document.createElement('li'); //Crear un nuevo elemento li para cada amigo
         li.textContent = `${friendList[i]}`; //Asignar el nombre del amigo al contenido del li
         ul.appendChild(li); //Agregar el li al ul
     }
@@ -38,7 +41,7 @@ function randomIndex(){
 }
 
 function drawnFriend() {
-    const div = document.querySelector('.input-section');
+    if(drawFinished) return initialConditions();
     if (friendList.length < 2) {
         alert('The list must contain at least two friends to be drawn.');
         return;
@@ -51,6 +54,7 @@ function drawnFriend() {
         //Si todos los amigos ya han sido sorteados, mostrar un mensaje
         if (noRepeated.length === friendList.length) {
             alert('All friends have already been drawn!');
+            initialConditions();
             return;
         }
         return drawnFriend();
@@ -59,12 +63,24 @@ function drawnFriend() {
     //Agregar el amigo secreto al array de no repetidos
     noRepeated.push(secretFriend);
 
-    //Crear un elemento h1 para mostrar el amigo secreto
-    const p = document.createElement('h1');
+    //Crear un elemento p para mostrar el amigo secreto
+    let p = document.createElement('h1');
     p.textContent = `Your secret friend is ${secretFriend}`;
-    div.appendChild(p);
+    ul.innerHTML ='';
+    ul2.appendChild(p);
+    drawFinished = true; //Marcar que el sorteo ha terminado  
 }
 
+function initialConditions(){
+    //reiniciar los arrays
+    friendList = [];
+    noRepeated = [];
+    drawFinished = false; //Reiniciar la variable de control del sorteo
+    //Limpiar la lista
+    //limpiar el mensaje de salida
+    ul.innerHTML = '';
+    
+}
 
 
 
