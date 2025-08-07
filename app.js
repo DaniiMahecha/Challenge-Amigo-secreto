@@ -40,10 +40,10 @@ function randomIndex(){
     return randomListIndex
 }
 
-function drawnFriend() {
+function drawFriend() {
     if(drawFinished) return initialConditions();
     if (friendList.length < 2) {
-        alert('The list must contain at least two friends to be drawn.');
+        alert('The list must contain at least two friends to be draw.');
         return;
     }
     //Sortear un amigo secreto
@@ -53,7 +53,7 @@ function drawnFriend() {
     if (noRepeated.includes(secretFriend)) {
         //Si todos los amigos ya han sido sorteados, mostrar un mensaje
         if (noRepeated.length === friendList.length) {
-            alert('All friends have already been drawn!');
+            alert('All friends have already been draw!');
             initialConditions();
             return;
         }
