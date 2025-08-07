@@ -1,17 +1,32 @@
-<h1>🎁 Secret Friend Generator</h1>
+<div align="center">
+
+# 🏆 Learning Badge | Secret Friend Generator 🎁
+A web application to organize secret friend gift exchanges in an easy and fun way.
+### Oracle ONE & Alura Challenge Completed
+<img width="500" height="500" alt="ff043987-239b-4661-bdb1-7f4ca6092c48" src="https://github.com/user-attachments/assets/11c18b91-1857-4754-bc76-c7bceef42c1e" />
+
+### 🎯 Challenge: Secret Friend Generator
+
 <img width="493" height="399" alt="image" src="https://github.com/user-attachments/assets/6db13f0e-0031-4a90-8e36-04a578fa4213" />
 
-
-
-<p align="left">
+<p>
 <img src="https://img.shields.io/badge/STATUS-FINISHED-orange">
 </p>
 
-A web application to organize secret friend gift exchanges in an easy and fun way.
+### 🏫 Platform: Oracle ONE & Alura  
+### 📅 Completed: [07/08/2025]
 
-## 🏆 Learning Badge
-<h2>Oracle ONE & Alura Challenge Completed</h2>
-<img width="500" height="500" alt="ff043987-239b-4661-bdb1-7f4ca6092c48" src="https://github.com/user-attachments/assets/11c18b91-1857-4754-bc76-c7bceef42c1e" />
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+
+#### 🎖️ Skills Mastered:
+✅ Random Algorithms
+✅ Array Manipulation  
+✅ DOM Events
+✅ Input Validation
+
+</div>
 
 
 ## 📋 Description
@@ -186,7 +201,7 @@ This project allowed me to practice:
 
 ## 🙏 Acknowledgments
 
-- **Alura** y **Oracle ONE**  for the challenge and learning opportunity
+- **Alura** & **Oracle ONE**  for the challenge and learning opportunity
 <img width="561" height="230" alt="aluraoracle" src="https://github.com/user-attachments/assets/abf74425-38c4-4928-84d2-ff9d997fca86" />
 
 ---
