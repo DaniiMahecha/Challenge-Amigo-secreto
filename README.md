@@ -1,5 +1,6 @@
 <h1>🎁 Secret Friend Generator</h1>
-<img width="851" height="315" alt="Proyect banner" src="https://github.com/user-attachments/assets/14f17ca4-1138-4234-b445-ee8a9dacddd1" />
+<img width="541" height="435" alt="image" src="https://github.com/user-attachments/assets/dbbfe653-874d-494b-8cb5-b1d809a5efe2" />
+
 
 <p align="left">
 <img src="https://img.shields.io/badge/STATUS-FINISHED-orange">
